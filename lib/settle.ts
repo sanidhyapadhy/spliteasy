@@ -165,3 +165,4 @@ export function formatRupees(paise: number): string {
   const formatted = `₹${formattedRupees}.${formattedPaise}`;
   return isNegative ? `-${formatted}` : formatted;
 }
+
